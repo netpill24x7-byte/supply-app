@@ -1,7 +1,7 @@
 /* Supply Day Book — service worker.
    App shell is cached so the app opens with no network.
    Office server calls (script.google.com) are never cached. */
-var VERSION = "sdb-v1.0.0";
+var VERSION = "sdb-v1.0.1";
 var SHELL = ["./", "./index.html", "./config.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", function (e) {
